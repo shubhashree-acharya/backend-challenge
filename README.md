@@ -1,4 +1,48 @@
-### Backend Development
+# Backend Development
+
+## Installation
+
+To install the dependencies, run the following command:
+
+```bash
+npm install
+```
+
+## Seeding Data
+To seed the database with initial data, follow these steps:
+
+```bash
+npm run data:sync
+```
+
+## Database Configuration
+
+Create .env file if not present using .env.example as a reference. Here is an example:
+
+```bash
+DATABASE_USER=<YOUR USER NAME>
+DATABASE_PASSWORD=<YOUR PASSWORD>
+DATABASE_NAME=<YOUR DATABASE NAME>
+DATABASE_HOST=<YOUR HOSTNAME>
+DATABASE_PORT=<YOUR DATABASE PORT>
+```
+
+## Running the Project
+
+To run the project, use the following command:
+
+```bash
+npm run start
+```
+
+## Running test cases
+
+```bash
+npm run test
+```
+This will start the NestJS application.
+
+
 
 #### Overview
 
@@ -62,3 +106,6 @@ Do not be discouraged if you are unable to complete aspects of the challenge, it
 6. Create unit tests for endpoint **3** above.
 
 7. Create a readme guide on how to run the project, interact with the API and perform the tests.
+
+
+
